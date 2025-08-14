@@ -1,0 +1,105 @@
+@media ((max-width: 1400px ) and (min-width: 1000px )) {
+}
+@media (max-width: 999px) {
+}
+
+@media (max-width: 780px) {
+}
+
+@media (max-width: 600px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-sm
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #navbarNavDropdown{
+    padding: 0 !important ;
+  }
+  .esce_content {
+    display: none;
+  }
+  .contenus {
+    padding: 20px;
+    padding-top: 80px;
+  }
+  .presentation_content h1 {
+    font-size: 3.5rem;
+  }
+  .icones_left,
+  .icones_right {
+    display: none;
+  }
+  .prez {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .receive_img {
+    width: 300px;
+    height: 300px;
+  }
+  .tof_profil {
+    justify-content: center;
+  }
+  .photo_profil {
+    width: 325px;
+    height: 325px;
+  }
+  .presentation_content {
+    margin-top: 50px;
+  }
+  .presentation {
+    margin-bottom: 25px;
+  }
+  .gridder {
+    margin-bottom: 25px;
+  }
+  .services {
+    padding: 10px;
+  }
+  .digital {
+    margin-top: 100px;
+  }
+  .centreur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contents_list ul{
+    padding: 0;
+  }
+  .contents_list .cart_text h3,.cart_text .date_card .date1{
+    font-size: 11px;
+  }
+  .contents_list ul li .cart_img{
+    width: 60px;
+    height: 60px;
+  }
+  .date_card a{
+    font-size: 11px;
+  }
+  .arrow_link i{
+    font-size: 15px;
+  }
+  .img_cosmos{
+    width: auto;
+    height: auto;
+  }
+  .c_link{
+    justify-content: center;
+  }
+  .content_net{
+    width: auto;
+  }
+  .networks .fa-solid{
+    margin: 0 8px;
+  }
+  .content_foot{
+    width: 100%;
+    padding: 20px;
+  }
+  footer{
+    margin-top: 50px;
+  }
+}
