@@ -121,7 +121,7 @@ body {
 
 .photo_profil {
   background-color: transparent;
-  border: 5px solid #0063f7;
+  border: 5px dashed #0063f7;
   border-radius: 50%;
   width: 430px;
   height: 430px;
@@ -246,7 +246,6 @@ body {
   padding: 20px 10px;
   margin-top: 80px;
   border-radius: 10px;
-
 }
 
 .box {
