@@ -33,12 +33,13 @@ require_once 'header.php';
             </div>
         </div>
     </section>
-    <section class="competences" id="experiences" >
+    <section class="competences" id="experiences">
         <div class="row col-lg-12 col-md-12 col-sm-12 comp">
+            <h2 class="titre_exp" >experiences professionelles</h2>
             <div class="col-lg-6 col-md-6 col-sm-12 gridder">
 
                 <div class="same">
-                    <h3>Development d'Applications <i class="fa-solid fa-code"></i> </h3>
+                    <h3>programmation C / C++<i class="fa-solid fa-terminal"></i></h3>
                     <p>
                         Besoin d’une application ? <br> aucun soucis
                         je peux facilement concevoir des solutions technologiques sur mesure pour répondre
@@ -47,7 +48,7 @@ require_once 'header.php';
                     <a href="#">Lire la suite</a>
                 </div>
                 <div class="same">
-                    <h3>Développement de sites web <i class="fa-solid fa-desktop"></i></h3>
+                    <h3>Développement de sites web <i class="fa-solid fa-display-code"></i></h3>
                     <p>
                         En utilisant les dernières technologies,
                         je crée des sites web hautement fonctionnels pour
@@ -58,7 +59,7 @@ require_once 'header.php';
                     <a href="#">Lire la suite</a>
                 </div>
                 <div class="same">
-                    <h3>Assistant administratifs et opérateur de saisie bilingue <i class="fa-solid fa-chart-line"></i></h3>
+                    <h3>Assistant administratifs et opérateur de saisie bilingue <i class="fa-regular fa-computer"></i></h3>
                     <p>
                         j’assure une gestion efficace des données et
                         des tâches administratives en deux langues.
@@ -67,7 +68,7 @@ require_once 'header.php';
                     </p>
                     <a href="#">Lire la suite</a>
                 </div>
-                <span id="realisations" ></span>
+                <span id="realisations"></span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="services">
@@ -88,7 +89,7 @@ require_once 'header.php';
             </div>
         </div>
     </section>
-    <section class="realisation" >
+    <section class="realisation">
         <div class="amont_aval">
             <div class="griddeur">
                 <div class="slick-slider">
@@ -252,7 +253,7 @@ require_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" id="portfolio" >
+            <div class="col-lg-6 col-md-6 col-sm-12" id="portfolio">
                 <div class="port">
                     <h5>Porfolio</h5>
                     <h2>Les meilleures solutions pour une excellente expérience numérique</h2>

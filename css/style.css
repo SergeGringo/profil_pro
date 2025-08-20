@@ -118,6 +118,22 @@ body {
   display: flex;
   justify-content: end;
 }
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes derotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
 
 .photo_profil {
   background-color: transparent;
@@ -130,6 +146,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotation 40s linear infinite; /*Ajoutez cette ligne pour l'animation*/
 }
 .receive_img {
   width: 410px;
@@ -138,6 +155,7 @@ body {
   position: relative;
   overflow: hidden;
   background-color: rgb(201, 201, 201);
+  animation: derotation 40s linear infinite; /*Ajoutez cette ligne pour l'animation*/
 }
 .receive_img img {
   width: 100%;
@@ -184,6 +202,15 @@ body {
 .competences {
   padding-top: 50px;
   /* background-color: orange; */
+}
+.comp .titre_exp {
+  color: #ffffff;
+  font-family: rubik;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #06c270;
 }
 .gridder .same {
   /* background-color: red; */
