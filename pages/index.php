@@ -8,7 +8,7 @@ require_once 'header.php';
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="presentation_content">
                     <h5>Salut! je suis </h5>
-                    <h1>AKA aka serge olivier</h1>
+                    <h1>Aka serge olivier AKA</h1>
                     <h3>Informaticien Developpeur d'Applications</h3>
                     <p>
                         Je suis un informaticien développeur d’applications polyvalent,
