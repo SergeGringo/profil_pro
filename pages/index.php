@@ -5,23 +5,20 @@ require_once 'header.php';
 <div class="contenus" id="home">
     <section class="presentation">
         <div class="row col-lg-12 col-md-12 col-sm-12 prez">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 lageur">
                 <div class="presentation_content">
                     <h5>Salut! je suis </h5>
-                    <h1>Aka serge olivier AKA</h1>
+                    <h1>AKA aka serge olivier</h1>
                     <h3>Informaticien Developpeur d'Applications</h3>
-                    <p>
-                        Je suis un informaticien développeur d’applications polyvalent,
-                        doté d’une formation solide en développement web et business (2022 – 2024).
-                        J’ai acquis des compétences techniques en HTML, CSS, JavaScript, PHP, MySQL,
-                        Bootstrap, GitHub, C++ et en conception d’applications adaptatives (responsive design),
-                        que j’ai renforcées à travers diverses missions et un stage en front-end.
-                        En plus de mes compétences techniques, j’ai également une expérience en gestion de réseau de stock,
-                        en assistance administrative et en opérateur de saisie,
-                        ce qui me permet de comprendre à la fois les aspects techniques et organisationnels d’un projet.
-                        Travailler avec moi, c’est collaborer avec un profil capable de lier expertise technique
-                        et rigueur administrative, garantissant une approche à la fois efficace,
-                        complète et adaptée aux besoins.
+                    <p>En plus d’être un développeur compétent,
+                        j’ai également acquis des compétences en
+                        tant qu’opérateur de saisie et en assistance administrative.
+                        Maîtrisant le processus de développement d’applications
+                        et ayant réalisé diverses missions, j’ai pu enrichir mes
+                        compétences et renforcer mon expertise. Travailler avec moi,
+                        c’est collaborer avec quelqu’un qui comprend à la fois
+                        le développement web et les enjeux administratifs,
+                        garantissant ainsi une approche polyvalente et efficace.
                     </p>
                     <a href="#" class="btn">Contactez-Moi</a>
                 </div>
@@ -38,20 +35,19 @@ require_once 'header.php';
     </section>
     <section class="competences" id="experiences">
         <div class="row col-lg-12 col-md-12 col-sm-12 comp">
-            <h2 class="titre_exp">experiences professionelles</h2>
-            <div class="col-lg-4 col-md-4 col-sm-12 gridder">
+            <div class="col-lg-6 col-md-6 col-sm-12 gridder">
 
                 <div class="same">
-                    <h3>programmation C / C++<i class="fa-solid fa-terminal"></i></h3>
+                    <h3>Development d'Applications <i class="fa-solid fa-code"></i> </h3>
                     <p>
-                        Besoin d’un programme pour automatiser vos tâches ?<br>
-                        aucun soucis je peux facilement concevoir des solutions technologiques
-                        sur mesure en langage C/C++ pour répondre aux besoins de votre entreprise
+                        Besoin d’une application ? <br> aucun soucis
+                        je peux facilement concevoir des solutions technologiques sur mesure pour répondre
+                        aux besoins de votre entreprise.
                     </p>
                     <a href="#">Lire la suite</a>
                 </div>
                 <div class="same">
-                    <h3>Développement de sites web <i class="fa-solid fa-display-code"></i></h3>
+                    <h3>Développement de sites web <i class="fa-solid fa-desktop"></i></h3>
                     <p>
                         En utilisant les dernières technologies,
                         je crée des sites web hautement fonctionnels pour
@@ -62,7 +58,7 @@ require_once 'header.php';
                     <a href="#">Lire la suite</a>
                 </div>
                 <div class="same">
-                    <h3>Assistance administrative et saisie bilingue <i class="fa-regular fa-computer"></i></h3>
+                    <h3>Assistant administratifs et opérateur de saisie bilingue <i class="fa-solid fa-chart-line"></i></h3>
                     <p>
                         j’assure une gestion efficace des données et
                         des tâches administratives en deux langues.
@@ -73,43 +69,7 @@ require_once 'header.php';
                 </div>
                 <span id="realisations"></span>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 gridder">
-
-                <div class="same">
-                    <h3>programmation PHP<i class="fa-brands fa-php"></i></h3>
-                    <p>
-                        Besoin d’un site web dynamiques ?<br>
-                        Je maîtrise le langage PHP pour le développement
-                        d’applications web dynamiques et interactives.
-                        J’ai acquis de l’expérience dans la création de sites fonctionnels,
-                        la gestion des bases de données MySQL, ainsi que dans l’intégration
-                        de fonctionnalités adaptées aux besoins spécifiques des utilisateurs.
-                    </p>
-                    <a href="#">Lire la suite</a>
-                </div>
-                <div class="same">
-                    <h3>Base de données MySQL <i class="fa-regular fa-database"></i></h3>
-                    <p>
-                        Je maîtrise MySQL pour la conception, la gestion et l’optimisation
-                        de bases de données. J’ai acquis de l’expérience dans la création
-                        de structures adaptées, la manipulation de données et l’intégration
-                        avec des applications web afin d’assurer performance et fiabilité.
-                    </p>
-                    <a href="#">Lire la suite</a>
-                </div>
-                <div class="same">
-                    <h3>Collaboration et gestion de projets <i class="fa-brands fa-github"></i></h3>
-                    <p>
-                        Je maîtrise GitHub pour la gestion de versions,
-                        la collaboration sur des projets et le suivi de code.
-                        J’ai acquis de l’expérience dans l’utilisation de branches,
-                        de pull requests et dans le déploiement de projets en équipe ou en individuel.
-                    </p>
-                    <a href="#">Lire la suite</a>
-                </div>
-                <span id="realisations"></span>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="services">
                     <h5>Mes services</h5>
                     <h3>Créons quelque chose d’incroyable ensemble</h3>
@@ -129,7 +89,6 @@ require_once 'header.php';
         </div>
     </section>
     <section class="realisation">
-        <h2 class="titre_exp">Mes realisations</h2>
         <div class="amont_aval">
             <div class="griddeur">
                 <div class="slick-slider">
@@ -311,7 +270,7 @@ require_once 'header.php';
     </section>
     <section class="blog" id="formation">
         <div class="row col-lg-12 col-md-12 col-sm-12 global_blog">
-            <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="col-lg-5 col-md-5 col-sm-12 big_blog ">
                 <div class="contents_blog">
                     <h5>FORMATIONS</h5>
                     <h2>
@@ -331,7 +290,7 @@ require_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-12">
+            <div class="col-lg-7 col-md-7 col-sm-12 large_list">
                 <div class="contents_list">
                     <ul>
                         <li>
@@ -367,7 +326,7 @@ require_once 'header.php';
                             </div>
                         </li>
                         <li>
-                            <div class="cart_img">
+                            <div class="cart_img space_img">
                                 <img src="../images/Brevet de Technicien Supérieur.png" alt="#">
                             </div>
                             <div class="cart_text">

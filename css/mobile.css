@@ -1,20 +1,188 @@
+@media (min-width: 1600px) {
+  .container-fluid {
+    padding-left: 14% !important;
+    padding-right: 14% !important;
+  }
+  .contenus {
+    padding: 120px 14% 90px 14%;
+  }
+
+}
+
 @media ((max-width: 1400px ) and (min-width: 1000px )) {
+  .container-fluid {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+  }
+  .contenus {
+    padding: 110px 8% 80px 8%;
+  }
+  .icones_left {
+    left: 35px;
+  }
+  .icones_right {
+    right: 35px;
+  }
+  .presentation_content h1 {
+    font-size: 4.1rem;
+    line-height: 60px;
+  }
+  .photo_profil {
+    width: 400px;
+    height: 400px;
+  }
+  .receive_img {
+    width: 380px;
+    height: 380px;
+  }
+  /* .img1,
+  .img2 {
+    width: 160px;
+    height: 390px;
+  } */
+    .content_foot {
+    width: 100% !important;
+  }
 }
 @media (max-width: 999px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-sm {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  #navbarNavDropdown {
+    padding: 0 !important;
+  }
+  .contenus {
+    padding: 100px 24px 70px 24px;
+  }
+  .icones_left,
+  .icones_right {
+    display: none;
+  }
+  .prez {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 28px;
+  }
+  .tof_profil {
+    justify-content: center;
+  }
+  .presentation {
+    margin-bottom: 55px;
+  }
+  .presentation_content {
+    margin-top: 0;
+  }
+  .presentation_content h1 {
+    font-size: 3.7rem;
+    line-height: 56px;
+  }
+  .photo_profil {
+    width: 380px;
+    height: 380px;
+  }
+  .receive_img {
+    width: 360px;
+    height: 360px;
+  }
+  .gridder {
+    margin-bottom: 28px;
+  }
+  .services {
+    padding: 0;
+  }
+  .digital {
+    margin-top: 110px;
+  }
+  .img1,
+  .img2 {
+    width: 170px;
+    height: 390px;
+  }
+  .contents_list ul {
+    padding: 0;
+  }
+  .content_foot {
+    width: 100%;
+  }
+  .lageur {
+    width: 100% !important;
+    text-align: center;
+  }
+  .presentation_content p {
+    margin: 0 auto;
+  }
+  .presentation_content .btn {
+    margin-top: 20px;
+  }
+  .global_blog {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .global_blog .big_blog {
+    width: 100%;
+  }
+  .global_blog .large_list {
+    width: 100%;
+  }
 }
 
 @media (max-width: 780px) {
+  .contenus {
+    padding: 92px 18px 60px 18px;
+  }
+  .presentation_content h1 {
+    font-size: 3.2rem;
+    line-height: 50px;
+  }
+  .photo_profil {
+    width: 350px;
+    height: 350px;
+  }
+  .receive_img {
+    width: 330px;
+    height: 330px;
+  }
+  .img1,
+  .img2 {
+    width: 165px;
+    /* height: 360px; */
+  }
+  .contents_list ul li {
+    gap: 10px;
+  }
+  .contents_list .cart_text h3 {
+    font-size: 1rem;
+  }
+  .cart_text .date_card .date1 {
+    font-size: 14px;
+  }
+  .arrow_link i {
+    font-size: 20px;
+  }
+  .lageur {
+    width: 100% !important;
+    text-align: center;
+  }
+  .presentation_content p {
+    margin: 0 auto;
+  }
+  .presentation_content .btn {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 600px) {
   .navbar > .container,
   .navbar > .container-fluid,
-  .navbar > .container-sm
-  {
+  .navbar > .container-sm {
     padding-left: 10px;
     padding-right: 10px;
   }
-  #navbarNavDropdown{
+  #navbarNavDropdown {
     padding: 0 !important ;
   }
   .esce_content {
@@ -66,40 +234,52 @@
     align-items: center;
     justify-content: center;
   }
-  .contents_list ul{
+  .contents_list ul {
     padding: 0;
   }
-  .contents_list .cart_text h3,.cart_text .date_card .date1{
+  .contents_list .cart_text h3,
+  .cart_text .date_card .date1 {
     font-size: 11px;
   }
-  .contents_list ul li .cart_img{
+  .contents_list ul li .cart_img {
     width: 60px;
     height: 60px;
   }
-  .date_card a{
+  .date_card a {
     font-size: 11px;
   }
-  .arrow_link i{
+  .date_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .trait {
+    display: none;
+  }
+  .space_img {
+    /* margin-right: 10px; */
+  }
+  .arrow_link i {
     font-size: 15px;
   }
-  .img_cosmos{
+  .img_cosmos {
     width: auto;
     height: auto;
   }
-  .c_link{
+  .c_link {
     justify-content: center;
   }
-  .content_net{
+  .content_net {
     width: auto;
   }
-  .networks .fa-solid{
+  .networks .fa-solid {
     margin: 0 8px;
   }
-  .content_foot{
+  .content_foot {
     width: 100%;
     padding: 20px;
   }
-  footer{
+  footer {
     margin-top: 50px;
   }
 }
