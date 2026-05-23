@@ -55,7 +55,7 @@ $(document).ready(function () {
   $(".slick-slider").on("mouseenter", function () {
     $(this).slick("slickPause");
   });
-  
+
   // Reprendre l'autoplay lorsque la souris sort du carrousel
   $(".slick-slider").on("mouseleave", function () {
     $(this).slick("slickPlay");
